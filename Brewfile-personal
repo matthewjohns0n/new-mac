@@ -1,1 +1,4 @@
 cask "adobe-creative-cloud"
+cask "alfred"
+cask "spectacle"
+cask "spotify"
