@@ -10,14 +10,16 @@ function moveToPersonal () {
 }
 
 rm -f Brewfile-personal
+moveToPersonal 'brew "htop"'
 moveToPersonal 'cask "adobe-creative-cloud"'
 moveToPersonal 'cask "alfred"'
+moveToPersonal 'cask "android-platform-tools"'
+moveToPersonal 'cask "arduino"'
+moveToPersonal 'cask "bartender"'
+moveToPersonal 'cask "bitbar"'
+moveToPersonal 'cask "cakebrew"'
+moveToPersonal 'cask "flux"'
+moveToPersonal 'cask "itsycal"'
+moveToPersonal 'cask "plex-media-server"'
 moveToPersonal 'cask "spectacle"'
 moveToPersonal 'cask "spotify"'
-moveToPersonal 'brew "htop"'
-
-cask "bartender"
-cask "bitbar"
-cask "cakebrew"
-cask "firefox"
-cask "flux"
