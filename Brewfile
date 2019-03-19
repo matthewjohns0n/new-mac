@@ -13,12 +13,19 @@ brew "jq"
 brew "mas"
 brew "mysql@5.7", restart_service: true, link: true
 brew "nginx", restart_service: true
-brew "php"
-brew "php-cs-fixer"
+brew "php", link: false
+brew "php@7.1", restart_service: true, link: true
 brew "sshuttle"
+brew "telnet"
 brew "zsh"
+brew "zsh-syntax-highlighting"
 cask "1password"
+cask "1password-cli"
 cask "google-chrome"
 cask "iterm2"
 cask "slack"
 cask "sublime-text"
+cask "ngrok"
+cask "vagrant"
+cask "virtualbox"
+cask "sequel-pro"

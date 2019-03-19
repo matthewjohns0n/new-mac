@@ -15,3 +15,9 @@ moveToPersonal 'cask "alfred"'
 moveToPersonal 'cask "spectacle"'
 moveToPersonal 'cask "spotify"'
 moveToPersonal 'brew "htop"'
+
+cask "bartender"
+cask "bitbar"
+cask "cakebrew"
+cask "firefox"
+cask "flux"
