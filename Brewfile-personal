@@ -1,5 +1,6 @@
 brew "htop"
 cask "adobe-creative-cloud"
+cask "ableton-live"
 cask "alfred"
 cask "android-platform-tools"
 cask "arduino"

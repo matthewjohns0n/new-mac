@@ -11,6 +11,7 @@ function moveToPersonal () {
 
 rm -f Brewfile-personal
 moveToPersonal 'brew "htop"'
+moveToPersonal 'cask "ableton-live"'
 moveToPersonal 'cask "adobe-creative-cloud"'
 moveToPersonal 'cask "alfred"'
 moveToPersonal 'cask "android-platform-tools"'
