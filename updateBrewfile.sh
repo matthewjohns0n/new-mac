@@ -2,13 +2,11 @@ brew bundle dump --force
 
 function moveToPersonal () {
     package=$@
-    echo $package
-
     sedCommand='/'$package'/d'
-    echo $sedCommand
-
     sed -i '' -e "$sedCommand" Brewfile
     echo "${package}" >> Brewfile-personal
+
+    echo "Moved package to personal: ${package}"
 }
 
 rm -f Brewfile-personal
