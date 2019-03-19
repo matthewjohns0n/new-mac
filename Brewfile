@@ -2,6 +2,17 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+brew "brew-cask-completion"
+brew "sshuttle"
+brew "mas"
+brew "mysql@5.7", restart_service: true, link: true
+brew "nginx", restart_service: true
+brew "dnsmasq", restart_service: true
+brew "git-lfs"
+brew "php-cs-fixer"
+brew "htop"
+brew "jq"
+brew "gnu-sed"
 brew "composer"
 brew "git"
 brew "php"
