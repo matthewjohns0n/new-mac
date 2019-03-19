@@ -13,4 +13,6 @@ function moveToPersonal () {
 
 rm -f Brewfile-personal
 moveToPersonal 'cask "adobe-creative-cloud"'
-
+moveToPersonal 'cask "alfred"'
+moveToPersonal 'cask "spectacle"'
+moveToPersonal 'cask "spotify"'

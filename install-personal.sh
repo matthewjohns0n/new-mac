@@ -1,4 +1,4 @@
-
+# Install packages from personal Brewfile
 brew bundle --file='Brewfile-personal' install
 
 # Open Creative cloud installer app for lightroom
