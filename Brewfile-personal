@@ -16,3 +16,5 @@ cask "plex-media-server"
 cask "spectacle"
 cask "spotify"
 cask "trinitronx/truecrypt/truecrypt"
+mas "iMovie", id: 408981434
+mas "Wallcat", id: 1000397973

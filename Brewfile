@@ -34,3 +34,5 @@ cask "tableplus"
 cask "transmit"
 cask "vagrant"
 cask "virtualbox"
+mas "Amphetamine", id: 937984704
+mas "Spark", id: 1176895641

@@ -54,10 +54,7 @@ cask "statusfy"
 cask "tunnelblick"
 
 
-mas "Amphetamine", id: 937984704
-mas "iMovie", id: 408981434
-mas "Spark", id: 1176895641
-mas "Wallcat", id: 1000397973
+
 
 
 mas "1Keyboard", id: 766939888
