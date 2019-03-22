@@ -1,6 +1,5 @@
 
 tap "sbdchd/macchanger"
-tap "trinitronx/truecrypt"
 
 # Maybe I want these
 brew "python"
@@ -54,28 +53,26 @@ cask "java"
 cask "statusfy"
 cask "tunnelblick"
 
-cask "trinitronx/truecrypt/truecrypt"
+
+mas "Amphetamine", id: 937984704
+mas "iMovie", id: 408981434
+mas "Spark", id: 1176895641
+mas "Wallcat", id: 1000397973
 
 
 mas "1Keyboard", id: 766939888
-mas "Amphetamine", id: 937984704
 mas "Bitcoin Ticker", id: 998255317
 mas "BitdefenderVirusScanner", id: 500154009
 mas "Copia", id: 1162224626
 mas "Dr. Antivirus", id: 1068435535
 mas "Evernote", id: 406056744
-mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "MainStage 3", id: 634159523
 mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Remote Desktop", id: 1295203466
-mas "NordVPN IKE", id: 1116599239
 mas "Notebook", id: 1173152781
 mas "Numbers", id: 409203825
 mas "Rough Draft", id: 1021874663
-mas "Slack", id: 803453959
-mas "Spark", id: 1176895641
 mas "The Unarchiver", id: 425424353
-mas "Wallcat", id: 1000397973
 mas "Wunderlist", id: 410628904
 mas "Xcode", id: 497799835
