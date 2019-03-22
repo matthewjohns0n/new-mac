@@ -19,6 +19,7 @@ brew "php@7.1", restart_service: true, link: true
 brew "sshuttle"
 brew "telnet"
 brew "zsh"
+brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 cask "1password"
 cask "1password-cli"
@@ -34,5 +35,9 @@ cask "tableplus"
 cask "transmit"
 cask "vagrant"
 cask "virtualbox"
+cask "tunnelblick"
+cask "the-unarchiver"
+cask "java"
 mas "Amphetamine", id: 937984704
 mas "Spark", id: 1176895641
+mas "Xcode", id: 497799835

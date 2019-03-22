@@ -37,6 +37,7 @@ brew "zeromq"
 brew "unrar"
 brew "watch"
 brew "zlib"
+cask "statusfy"
 brew "nvm"
 
 # Work but IDK
@@ -46,18 +47,6 @@ brew "libsass"
 brew "redis"
 brew "supervisor"
 
-
-
-
-cask "java"
-cask "statusfy"
-cask "tunnelblick"
-
-
-
-
-
-mas "1Keyboard", id: 766939888
 mas "Bitcoin Ticker", id: 998255317
 mas "BitdefenderVirusScanner", id: 500154009
 mas "Copia", id: 1162224626
@@ -70,6 +59,4 @@ mas "Microsoft Remote Desktop", id: 1295203466
 mas "Notebook", id: 1173152781
 mas "Numbers", id: 409203825
 mas "Rough Draft", id: 1021874663
-mas "The Unarchiver", id: 425424353
 mas "Wunderlist", id: 410628904
-mas "Xcode", id: 497799835
