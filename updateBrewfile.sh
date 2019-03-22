@@ -2,7 +2,7 @@ brew bundle dump --force
 
 function moveToPersonal () {
     package=$@
-    sedCommand='/'$package'/d'
+    sedCommand='\#'$package'#d'
     sed -i '' -e "$sedCommand" Brewfile
     echo "${package}" >> Brewfile-personal
 
@@ -10,6 +10,7 @@ function moveToPersonal () {
 }
 
 rm -f Brewfile-personal
+moveToPersonal 'tap "trinitronx/truecrypt"'
 moveToPersonal 'brew "htop"'
 moveToPersonal 'cask "ableton-live"'
 moveToPersonal 'cask "adobe-creative-cloud"'
@@ -24,3 +25,4 @@ moveToPersonal 'cask "itsycal"'
 moveToPersonal 'cask "plex-media-server"'
 moveToPersonal 'cask "spectacle"'
 moveToPersonal 'cask "spotify"'
+moveToPersonal 'cask "trinitronx/truecrypt/truecrypt"'
