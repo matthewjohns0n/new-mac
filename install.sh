@@ -10,3 +10,6 @@ brew tap Homebrew/bundle
 
 # Install files from brewfile bundle
 brew bundle install
+
+# use zsh as default
+sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
