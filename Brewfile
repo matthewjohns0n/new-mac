@@ -3,6 +3,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+cask "osxfuse"
 brew "brew-cask-completion"
 brew "composer"
 brew "dnsmasq", restart_service: true
@@ -13,6 +14,7 @@ brew "jq"
 brew "mas"
 brew "mysql@5.7", restart_service: true, link: true
 brew "nginx", restart_service: true
+brew "ntfs-3g"
 brew "php", link: false
 brew "php-cs-fixer"
 brew "php@7.1", restart_service: true, link: true
@@ -27,17 +29,17 @@ cask "daisydisk"
 cask "firefox"
 cask "google-chrome"
 cask "iterm2"
+cask "java"
 cask "ngrok"
 cask "sequel-pro"
 cask "slack"
 cask "sublime-text"
 cask "tableplus"
+cask "the-unarchiver"
 cask "transmit"
+cask "tunnelblick"
 cask "vagrant"
 cask "virtualbox"
-cask "tunnelblick"
-cask "the-unarchiver"
-cask "java"
 mas "Amphetamine", id: 937984704
 mas "Spark", id: 1176895641
 mas "Xcode", id: 497799835
