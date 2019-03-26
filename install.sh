@@ -13,3 +13,14 @@ brew bundle install
 
 # use zsh as default
 sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
+
+# Install Valet
+composer global require laravel/valet
+
+# Make an etc resolver folder
+sudo mkdir -p /etc/resolver
+
+# Echo nameserver into resolver files
+echo "nameserver 127.0.0.1" | sudo tee /etc/resolver/test
+echo "nameserver 127.0.0.1" | sudo tee /etc/resolver/localhost
+echo "nameserver 127.0.0.1" | sudo tee /etc/resolver/sparrow
