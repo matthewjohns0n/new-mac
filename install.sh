@@ -24,3 +24,9 @@ sudo mkdir -p /etc/resolver
 echo "nameserver 127.0.0.1" | sudo tee /etc/resolver/test
 echo "nameserver 127.0.0.1" | sudo tee /etc/resolver/localhost
 echo "nameserver 127.0.0.1" | sudo tee /etc/resolver/sparrow
+
+# Make code folder
+sudo mkdir /code
+sudo chown -R ${USER}:staff /code
+
+mkdir /code/www
