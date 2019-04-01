@@ -1,4 +1,5 @@
 tap "trinitronx/truecrypt"
+brew "fzf"
 brew "htop"
 cask "ableton-live"
 cask "adobe-creative-cloud"

@@ -14,8 +14,12 @@ brew bundle install
 # use zsh as default
 sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
 
+# Install Oh My Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 # Install Valet
 composer global require laravel/valet
+valet install
 
 # Make an etc resolver folder
 sudo mkdir -p /etc/resolver
@@ -29,4 +33,7 @@ echo "nameserver 127.0.0.1" | sudo tee /etc/resolver/sparrow
 sudo mkdir /code
 sudo chown -R ${USER}:staff /code
 
-mkdir /code/www
+mkdir -p /code/sites
+
+cd /code/sites
+valet park

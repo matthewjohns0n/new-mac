@@ -4,7 +4,6 @@ tap "sbdchd/macchanger"
 # Maybe I want these
 brew "python"
 brew "python@2"
-brew "fzf"
 brew "coreutils"
 brew "sbdchd/macchanger/macchanger"
 brew "sheharyarn/tap/vncviewer"
