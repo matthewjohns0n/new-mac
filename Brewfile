@@ -32,6 +32,7 @@ cask "diffmerge"
 cask "dropbox"
 cask "firefox"
 cask "github"
+cask "go2shell"
 cask "google-chrome"
 cask "iterm2"
 cask "java"
@@ -48,5 +49,6 @@ cask "tunnelblick"
 cask "vagrant"
 cask "virtualbox"
 mas "Amphetamine", id: 937984704
+mas "CopyClip", id: 595191960
 mas "Spark", id: 1176895641
 mas "Xcode", id: 497799835
