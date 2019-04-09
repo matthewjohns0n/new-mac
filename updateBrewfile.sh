@@ -11,8 +11,11 @@ function moveToPersonal () {
 
 rm -f Brewfile-personal
 moveToPersonal 'tap "trinitronx/truecrypt"'
+moveToPersonal 'brew "cowsay"'
+moveToPersonal 'brew "fortune"'
 moveToPersonal 'brew "fzf"'
 moveToPersonal 'brew "htop"'
+moveToPersonal 'brew "lolcat"'
 moveToPersonal 'cask "ableton-live"'
 moveToPersonal 'cask "adobe-creative-cloud"'
 moveToPersonal 'cask "alfred"'
