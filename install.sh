@@ -37,3 +37,9 @@ mkdir -p /code/sites
 
 cd /code/sites
 valet park
+
+# Disable spaces autoreordering because it's the most annoying thing in the world
+defaults write com.apple.dock mru-spaces -bool FALSE
+
+# Don’t show recent applications in Dock
+defaults write com.apple.dock show-recents -bool false
