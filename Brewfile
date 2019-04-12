@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
@@ -12,7 +13,7 @@ brew "git-lfs"
 brew "gnu-sed"
 brew "jq"
 brew "mas"
-brew "mysql@5.7", link: true
+brew "mysql@5.7", restart_service: true, link: true
 brew "nginx", restart_service: true
 brew "node"
 brew "ntfs-3g"
@@ -31,6 +32,9 @@ cask "daisydisk"
 cask "diffmerge"
 cask "dropbox"
 cask "firefox"
+cask "font-fira-code"
+cask "font-fira-mono"
+cask "font-hack"
 cask "github"
 cask "go2shell"
 cask "google-chrome"
@@ -48,7 +52,8 @@ cask "transmit"
 cask "tunnelblick"
 cask "vagrant"
 cask "virtualbox"
-mas "Amphetamine", id: 937984704
-mas "CopyClip", id: 595191960
-mas "Spark", id: 1176895641
-mas "Xcode", id: 497799835
+mas "com.apple.dt.Xcode", id: 497799835
+mas "com.apple.iWork.Pages", id: 409201541
+mas "com.fiplab.clipboard", id: 595191960
+mas "com.if.Amphetamine", id: 937984704
+mas "com.readdle.smartemail-Mac", id: 1176895641

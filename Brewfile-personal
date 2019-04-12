@@ -21,7 +21,7 @@ cask "spectacle"
 cask "spotify"
 cask "vlc"
 cask "trinitronx/truecrypt/truecrypt"
-mas "1Keyboard", id: 766939888
-mas "iMovie", id: 408981434
-mas "Notebook", id: 1173152781
-mas "Wallcat", id: 1000397973
+mas "cat.wall.Wallcat", id: 1000397973
+mas "com.apple.iMovieApp", id: 408981434
+mas "com.eyalw.1Keyboard", id: 766939888
+mas "com.zoho.notebook.mac", id: 1173152781
