@@ -55,6 +55,5 @@ cask "vagrant"
 cask "virtualbox"
 mas "com.apple.dt.Xcode", id: 497799835
 mas "com.apple.iWork.Pages", id: 409201541
-mas "com.fiplab.clipboard", id: 595191960
 mas "com.if.Amphetamine", id: 937984704
 mas "com.readdle.smartemail-Mac", id: 1176895641
