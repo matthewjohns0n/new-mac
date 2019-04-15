@@ -17,8 +17,10 @@ sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# Install global composer packages
+./composer-installs.sh
+
 # Install Valet
-composer global require laravel/valet
 valet install
 
 # Make an etc resolver folder
