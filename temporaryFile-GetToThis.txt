@@ -6,7 +6,6 @@ brew "python"
 brew "python@2"
 brew "coreutils"
 brew "sbdchd/macchanger/macchanger"
-brew "sheharyarn/tap/vncviewer"
 
 # More hacking type things
 brew "dnsmap"
@@ -15,29 +14,6 @@ brew "nikto"
 brew "nmap"
 brew "mitmproxy"
 brew "theharvester"
-
-# Just for fun things
-brew "cowsay"
-brew "fortune"
-brew "lolcat"
-
-# IDK
-brew "autoconf"
-brew "boost"
-brew "openldap"
-brew "dos2unix"
-brew "ffmpeg"
-brew "go"
-brew "qt"
-brew "lftp"
-brew "libiconv"
-brew "wakeonlan"
-brew "zeromq"
-brew "unrar"
-brew "watch"
-brew "zlib"
-cask "statusfy"
-brew "nvm"
 
 # Work but IDK
 brew "imagemagick"
