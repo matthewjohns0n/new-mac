@@ -1,3 +1,4 @@
+tap "exolnet/deprecated"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -5,14 +6,19 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 cask "osxfuse"
+brew "coreutils"
+brew "asdf"
 brew "brew-cask-completion"
 brew "composer"
 brew "dnsmasq", restart_service: true
 brew "git"
 brew "git-lfs"
 brew "gnu-sed"
+brew "gnupg"
 brew "jq"
+brew "mackup"
 brew "mas"
+brew "mysql@5.5", link: true
 brew "mysql@5.7", restart_service: true, link: true
 brew "nginx", restart_service: true
 brew "node"
@@ -20,15 +26,18 @@ brew "ntfs-3g"
 brew "php", link: false
 brew "php-cs-fixer"
 brew "php@7.1", restart_service: true, link: true
+brew "php@7.2"
 brew "sshuttle"
 brew "telnet"
+brew "yarn"
 brew "zsh"
 brew "zsh-completions"
-brew "zsh-syntax-highlighting"
+brew "exolnet/deprecated/php@5.6"
 cask "1password"
 cask "1password-cli"
 cask "bettertouchtool"
 cask "daisydisk"
+cask "dbngin"
 cask "diffmerge"
 cask "dropbox"
 cask "firefox"
@@ -56,4 +65,5 @@ cask "virtualbox"
 mas "com.apple.dt.Xcode", id: 497799835
 mas "com.apple.iWork.Pages", id: 409201541
 mas "com.if.Amphetamine", id: 937984704
+mas "com.implbits.base64anywhere", id: 640841706
 mas "com.readdle.smartemail-Mac", id: 1176895641

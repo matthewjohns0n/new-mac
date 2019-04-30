@@ -1,4 +1,5 @@
 tap "trinitronx/truecrypt"
+brew "cointop"
 brew "cowsay"
 brew "fortune"
 brew "fzf"
@@ -8,6 +9,7 @@ cask "ableton-live"
 cask "adobe-creative-cloud"
 cask "alfred"
 cask "android-platform-tools"
+cask "android-sdk"
 cask "arduino"
 cask "bartender"
 cask "bitbar"
@@ -22,6 +24,7 @@ cask "spotify"
 cask "vlc"
 cask "trinitronx/truecrypt/truecrypt"
 mas "cat.wall.Wallcat", id: 1000397973
+mas "com.apple.garageband10", id: 682658836
 mas "com.apple.iMovieApp", id: 408981434
 mas "com.eyalw.1Keyboard", id: 766939888
 mas "com.zoho.notebook.mac", id: 1173152781
