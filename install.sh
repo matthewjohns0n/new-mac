@@ -49,3 +49,6 @@ defaults write com.apple.dock mru-spaces -bool FALSE
 
 # Don’t show recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
+
+# Show hidden files in Finder
+defaults write com.apple.finder AppleShowAllFiles YES
