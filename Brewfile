@@ -1,3 +1,4 @@
+tap "dart-lang/dart"
 tap "exolnet/deprecated"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -5,6 +6,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "sass/sass"
 cask "osxfuse"
 brew "coreutils"
 brew "asdf"
@@ -27,6 +29,7 @@ brew "php", link: false
 brew "php-cs-fixer"
 brew "php@7.1", restart_service: true, link: true
 brew "php@7.2"
+brew "sassc"
 brew "sshuttle"
 brew "telnet"
 brew "yarn"
@@ -62,8 +65,9 @@ cask "transmit"
 cask "tunnelblick"
 cask "vagrant"
 cask "virtualbox"
-mas "com.apple.dt.Xcode", id: 497799835
-mas "com.apple.iWork.Pages", id: 409201541
-mas "com.if.Amphetamine", id: 937984704
-mas "com.implbits.base64anywhere", id: 640841706
-mas "com.readdle.smartemail-Mac", id: 1176895641
+mas "Amphetamine", id: 937984704
+mas "Base64Anywhere", id: 640841706
+mas "GIPHY CAPTURE", id: 668208984
+mas "Pages", id: 409201541
+mas "Spark", id: 1176895641
+mas "Xcode", id: 497799835
