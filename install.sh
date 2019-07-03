@@ -20,6 +20,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # Install global composer packages
 ./composer-installs.sh
 
+export PATH=~/.composer/vendor/bin:$PATH
+
 # Install Valet
 valet install
 
