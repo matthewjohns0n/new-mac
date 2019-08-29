@@ -21,7 +21,7 @@ brew "jq"
 brew "mackup"
 brew "mas"
 brew "mysql@5.5", link: true
-brew "mysql@5.7", restart_service: true, link: true
+brew "mysql@5.7", restart_service: true
 brew "nginx", restart_service: true
 brew "node"
 brew "ntfs-3g"
@@ -55,7 +55,9 @@ cask "iterm2"
 cask "java"
 cask "ngrok"
 cask "notion"
+cask "sensiblesidebuttons"
 cask "sequel-pro-nightly"
+cask "skype"
 cask "slack"
 cask "sublime-merge"
 cask "sublime-text"
@@ -63,11 +65,14 @@ cask "tableplus"
 cask "the-unarchiver"
 cask "transmit"
 cask "tunnelblick"
+cask "usb-overdrive"
 cask "vagrant"
 cask "virtualbox"
 mas "Amphetamine", id: 937984704
 mas "Base64Anywhere", id: 640841706
 mas "GIPHY CAPTURE", id: 668208984
+mas "Magnet", id: 441258766
+mas "Microsoft Remote Desktop", id: 1295203466
 mas "Pages", id: 409201541
 mas "Spark", id: 1176895641
 mas "Xcode", id: 497799835
