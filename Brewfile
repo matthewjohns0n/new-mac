@@ -22,12 +22,13 @@ brew "mackup"
 brew "mas"
 brew "mysql@5.5", link: true
 brew "mysql@5.7", restart_service: true
+brew "netcat"
 brew "nginx", restart_service: true
 brew "node"
 brew "ntfs-3g"
-brew "php", link: false
+brew "php", restart_service: true
 brew "php-cs-fixer"
-brew "php@7.1", restart_service: true, link: true
+brew "php@7.1", restart_service: true
 brew "php@7.2"
 brew "sassc"
 brew "sshuttle"
@@ -39,9 +40,12 @@ brew "exolnet/deprecated/php@5.6"
 cask "1password"
 cask "1password-cli"
 cask "bettertouchtool"
+cask "betterzip"
+cask "cheatsheet"
 cask "daisydisk"
 cask "dbngin"
 cask "diffmerge"
+cask "discord"
 cask "dropbox"
 cask "firefox"
 cask "flycut"
@@ -68,11 +72,13 @@ cask "tunnelblick"
 cask "usb-overdrive"
 cask "vagrant"
 cask "virtualbox"
+cask "zoomus"
 mas "Amphetamine", id: 937984704
 mas "Base64Anywhere", id: 640841706
 mas "GIPHY CAPTURE", id: 668208984
 mas "Magnet", id: 441258766
 mas "Microsoft Remote Desktop", id: 1295203466
+mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Spark", id: 1176895641
 mas "Xcode", id: 497799835
