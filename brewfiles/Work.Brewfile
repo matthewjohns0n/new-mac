@@ -7,32 +7,23 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "sass/sass"
-tap "trinitronx/truecrypt"
 cask "osxfuse"
 brew "coreutils"
 brew "asdf"
 brew "brew-cask-completion"
-brew "cointop"
 brew "composer"
-brew "cowsay"
 brew "dnsmasq", restart_service: true
-brew "fortune"
-brew "fzf"
 brew "git"
 brew "git-lfs"
 brew "gnu-sed"
 brew "gnupg"
-brew "htop"
 brew "jq"
-brew "lolcat"
 brew "mackup"
 brew "mas"
 brew "mysql@5.5", link: true
 brew "mysql@5.7", restart_service: true
 brew "netcat"
 brew "nginx", restart_service: true
-brew "nikto"
-brew "nmap"
 brew "node"
 brew "ntfs-3g"
 brew "php", restart_service: true
@@ -48,19 +39,8 @@ brew "zsh-completions"
 brew "exolnet/deprecated/php@5.6"
 cask "1password"
 cask "1password-cli"
-cask "ableton-live"
-cask "adobe-creative-cloud"
-cask "alfred"
-cask "android-file-transfer"
-cask "android-platform-tools"
-cask "android-sdk"
-cask "arduino"
-cask "balenaetcher"
-cask "bartender"
 cask "bettertouchtool"
 cask "betterzip"
-cask "bitbar"
-cask "cakebrew"
 cask "cheatsheet"
 cask "daisydisk"
 cask "dbngin"
@@ -68,22 +48,17 @@ cask "diffmerge"
 cask "discord"
 cask "dropbox"
 cask "firefox"
-cask "flux"
 cask "flycut"
 cask "font-fira-code"
 cask "font-fira-mono"
 cask "font-hack"
 cask "github"
 cask "go2shell"
-cask "goofy"
 cask "google-chrome"
 cask "iterm2"
-cask "itsycal"
 cask "java"
 cask "ngrok"
-cask "nordvpn"
 cask "notion"
-cask "plex-media-server"
 cask "qlcolorcode"
 cask "qlimagesize"
 cask "qlmarkdown"
@@ -95,8 +70,6 @@ cask "sensiblesidebuttons"
 cask "sequel-pro-nightly"
 cask "skype"
 cask "slack"
-cask "spectacle"
-cask "spotify"
 cask "sublime-merge"
 cask "sublime-text"
 cask "suspicious-package"
@@ -107,26 +80,13 @@ cask "tunnelblick"
 cask "usb-overdrive"
 cask "vagrant"
 cask "virtualbox"
-cask "vlc"
 cask "zoomus"
-cask "trinitronx/truecrypt/truecrypt"
-mas "1Keyboard", id: 766939888
 mas "Amphetamine", id: 937984704
 mas "Base64Anywhere", id: 640841706
-mas "GarageBand", id: 682658836
 mas "GIPHY CAPTURE", id: 668208984
-mas "iMovie", id: 408981434
 mas "Magnet", id: 441258766
-mas "MainStage 3", id: 634159523
-mas "Mapping Tonal Harmony Pro", id: 599212305
 mas "Microsoft Remote Desktop", id: 1295203466
-mas "Notebook", id: 1173152781
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Politonus II Ear Training", id: 1455174275
-mas "Politonus III Ear Training", id: 1459516938
-mas "See Music Pro", id: 1362924701
 mas "Spark", id: 1176895641
-mas "Tessitura Pro", id: 1213925683
-mas "Wallcat", id: 1000397973
 mas "Xcode", id: 497799835

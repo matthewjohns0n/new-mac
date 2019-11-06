@@ -2,18 +2,18 @@
 cd brewfiles
 
 rm -f Brewfile
-rm -f Brewfile-work
-rm -f Brewfile-personal
+rm -f Work.Brewfile
+rm -f Personal.Brewfile
 
 brew bundle dump --force
 
-cp Brewfile Brewfile-work
+cp Brewfile Work.Brewfile
 
 function moveToPersonal () {
     package=$@
     sedCommand='\#'$package'#d'
-    sed -i '' -e "$sedCommand" Brewfile
-    echo "${package}" >> Brewfile-personal
+    sed -i '' -e "$sedCommand" Work.Brewfile
+    echo "${package}" >> Personal.Brewfile
 
     echo "Moved package to personal: ${package}"
 }
