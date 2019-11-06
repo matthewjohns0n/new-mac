@@ -1,3 +1,6 @@
+
+rm -f Brewfile-personal
+
 brew bundle dump --force
 
 function moveToPersonal () {
@@ -9,38 +12,49 @@ function moveToPersonal () {
     echo "Moved package to personal: ${package}"
 }
 
-rm -f Brewfile-personal
-moveToPersonal 'tap "trinitronx/truecrypt"'
-moveToPersonal 'brew "cointop"'
-moveToPersonal 'brew "cowsay"'
-moveToPersonal 'brew "fortune"'
-moveToPersonal 'brew "fzf"'
-moveToPersonal 'brew "htop"'
-moveToPersonal 'brew "lolcat"'
-moveToPersonal 'brew "nikto"'
-moveToPersonal 'brew "nmap"'
-moveToPersonal 'cask "ableton-live"'
-moveToPersonal 'cask "adobe-creative-cloud"'
-moveToPersonal 'cask "alfred"'
-moveToPersonal 'cask "android-platform-tools"'
-moveToPersonal 'cask "android-sdk"'
-moveToPersonal 'cask "arduino"'
-moveToPersonal 'cask "bartender"'
-moveToPersonal 'cask "bitbar"'
-moveToPersonal 'cask "cakebrew"'
-moveToPersonal 'cask "flux"'
-moveToPersonal 'cask "goofy"'
-moveToPersonal 'cask "itsycal"'
-moveToPersonal 'cask "nordvpn"'
-moveToPersonal 'cask "plex-media-server"'
-moveToPersonal 'cask "spectacle"'
-moveToPersonal 'cask "spotify"'
-moveToPersonal 'cask "vlc"'
-moveToPersonal 'cask "trinitronx/truecrypt/truecrypt"'
-moveToPersonal 'cask "android-file-transfer"'
-moveToPersonal 'mas "1Keyboard", id: 766939888'
-moveToPersonal 'mas "Notebook", id: 1173152781'
-moveToPersonal 'mas "Wallcat", id: 1000397973'
-moveToPersonal 'mas "GarageBand", id: 682658836'
-moveToPersonal 'mas "iMovie", id: 408981434'
-moveToPersonal 'mas "MainStage 3", id: 634159523'
+declare -a personal_packages=(
+    'tap "trinitronx/truecrypt"'
+    'brew "cointop"'
+    'brew "cowsay"'
+    'brew "fortune"'
+    'brew "fzf"'
+    'brew "htop"'
+    'brew "lolcat"'
+    'brew "nikto"'
+    'brew "nmap"'
+    'cask "ableton-live"'
+    'cask "adobe-creative-cloud"'
+    'cask "alfred"'
+    'cask "android-platform-tools"'
+    'cask "android-sdk"'
+    'cask "arduino"'
+    'cask "bartender"'
+    'cask "balenaetcher"'
+    'cask "bitbar"'
+    'cask "cakebrew"'
+    'cask "flux"'
+    'cask "goofy"'
+    'cask "itsycal"'
+    'cask "nordvpn"'
+    'cask "plex-media-server"'
+    'cask "spectacle"'
+    'cask "spotify"'
+    'cask "vlc"'
+    'cask "trinitronx/truecrypt/truecrypt"'
+    'cask "android-file-transfer"'
+    'mas "1Keyboard", id: 766939888'
+    'mas "Notebook", id: 1173152781'
+    'mas "Wallcat", id: 1000397973'
+    'mas "GarageBand", id: 682658836'
+    'mas "iMovie", id: 408981434'
+    'mas "MainStage 3", id: 634159523'
+    'mas "Mapping Tonal Harmony Pro", id: 599212305'
+    'mas "Politonus II Ear Training", id: 1455174275'
+    'mas "Politonus III Ear Training", id: 1459516938'
+    'mas "See Music Pro", id: 1362924701'
+    'mas "Tessitura Pro", id: 1213925683'
+)
+
+for personal_package in "${personal_packages[@]}"; do
+   moveToPersonal "$personal_package"
+done
