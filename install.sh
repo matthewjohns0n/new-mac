@@ -52,3 +52,6 @@ defaults write com.apple.dock show-recents -bool false
 
 # Show hidden files in Finder
 defaults write com.apple.finder AppleShowAllFiles YES
+
+# Install brew quicklooks
+brew bundle --file='brewfiles/Quicklooks.Brewfile' install
