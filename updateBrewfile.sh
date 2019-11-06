@@ -1,7 +1,13 @@
 
+cd brewfiles
+
+rm -f Brewfile
+rm -f Brewfile-work
 rm -f Brewfile-personal
 
 brew bundle dump --force
+
+cp Brewfile Brewfile-work
 
 function moveToPersonal () {
     package=$@
