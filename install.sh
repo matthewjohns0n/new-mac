@@ -50,8 +50,13 @@ defaults write com.apple.dock mru-spaces -bool FALSE
 # Don’t show recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
 
-# Show hidden files in Finder
+# Show hidden files in Finder - this doesnt work unfortunately
 defaults write com.apple.finder AppleShowAllFiles YES
 
 # Install brew quicklooks
 brew bundle --file='brewfiles/Quicklooks.Brewfile' install
+
+# Quicklook setting
+defaults write org.n8gray.QLColorCode textEncoding UTF-16
+defaults write org.n8gray.QLColorCode webkitTextEncoding UTF-16
+defaults write org.n8gray.QLColorCode hlTheme zenburn
