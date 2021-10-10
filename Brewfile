@@ -49,7 +49,7 @@ brew "zsh-completions"
 brew "vitorgalvao/tiny-scripts/cask-repair"
 cask "1password"
 cask "1password-cli"
-brew "ableton-live-lite"
+cask "ableton-live-lite"
 cask "adobe-creative-cloud"
 cask "alfred"
 cask "android-file-transfer"
@@ -81,6 +81,8 @@ cask "goofy"
 cask "google-chrome"
 cask "iterm2"
 cask "itsycal"
+cask "logitech-g-hub"
+cask "logitech-options"
 cask "mtmr"
 cask "ngrok"
 cask "nordvpn"
@@ -113,9 +115,9 @@ cask "zoom"
 mas "1Keyboard", id: 766939888
 mas "Amphetamine", id: 937984704
 mas "Base64Anywhere", id: 640841706
-mas "GarageBand", id: 682658836
+mas "Final Cut Pro", id: 424389933
 mas "GIPHY CAPTURE", id: 668208984
-mas "iMovie", id: 408981434
+mas "Logic Pro", id: 634148309
 mas "Magnet", id: 441258766
 mas "MainStage", id: 634159523
 mas "Mapping Tonal Harmony Pro", id: 599212305
@@ -128,4 +130,4 @@ mas "Politonus III Ear Training", id: 1459516938
 mas "See Music Pro", id: 1362924701
 mas "Spark", id: 1176895641
 mas "Tessitura Pro", id: 1213925683
-mas "Wallcat", id: 1000397973
+mas "VictronConnect", id: 1084677271
