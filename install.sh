@@ -11,7 +11,7 @@ brew update
 brew tap Homebrew/bundle
 
 # Install files from brewfile bundle
-brew bundle --file='brewfiles/Work.Brewfile' install
+brew bundle --file='Brewfile' install
 
 # use zsh as default
 sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
@@ -33,28 +33,24 @@ sudo mkdir -p /etc/resolver
 # Echo nameserver into resolver files
 echo "nameserver 127.0.0.1" | sudo tee /etc/resolver/test
 echo "nameserver 127.0.0.1" | sudo tee /etc/resolver/localhost
-echo "nameserver 127.0.0.1" | sudo tee /etc/resolver/sparrow
 
 # Make code folder
-sudo mkdir /code
-sudo chown -R ${USER}:staff /code
+mkdir ~/Code
+mkdir ~/Sites
+# chown -R ${USER}:staff ~/Code
+# chown -R ${USER}:staff ~/Sites
 
-mkdir -p /code/sites
-
-cd /code/sites
+cd ~/Sites
 valet park
 
 # Disable spaces autoreordering because it's the most annoying thing in the world
-defaults write com.apple.dock mru-spaces -bool FALSE
+defaults write com.apple.dock mru-spaces -bool false
 
 # Don’t show recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
 
 # Show hidden files in Finder - this doesnt work unfortunately
 defaults write com.apple.finder AppleShowAllFiles YES
-
-# Install brew quicklooks
-brew bundle --file='brewfiles/Quicklooks.Brewfile' install
 
 # Quicklook setting
 defaults write org.n8gray.QLColorCode textEncoding UTF-16

@@ -1,5 +1,4 @@
 tap "dart-lang/dart"
-tap "exolnet/deprecated"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
@@ -10,7 +9,6 @@ tap "homebrew/services"
 tap "sass/sass"
 tap "trinitronx/truecrypt"
 tap "vitorgalvao/tiny-scripts"
-cask "osxfuse"
 brew "coreutils"
 brew "asdf"
 brew "brew-cask-completion"
@@ -29,31 +27,29 @@ brew "jq"
 brew "lolcat"
 brew "mackup"
 brew "mas"
-brew "mysql@5.5", link: true
 brew "mysql@5.7", restart_service: true
 brew "netcat"
 brew "nginx", restart_service: true
 brew "nikto"
 brew "nmap"
 brew "node"
-brew "ntfs-3g"
+brew "openjdk"
 brew "php", restart_service: true
 brew "php-cs-fixer"
-brew "php@7.2"
+brew "php@7.4"
 brew "pup"
 brew "recode"
 brew "sassc"
 brew "sshuttle"
+brew "switchaudio-osx"
 brew "telnet"
 brew "yarn"
 brew "zsh"
 brew "zsh-completions"
-brew "exolnet/deprecated/php@5.6"
-brew "exolnet/deprecated/php@7.1"
 brew "vitorgalvao/tiny-scripts/cask-repair"
 cask "1password"
 cask "1password-cli"
-cask "ableton-live"
+brew "ableton-live-lite"
 cask "adobe-creative-cloud"
 cask "alfred"
 cask "android-file-transfer"
@@ -63,6 +59,7 @@ cask "arduino"
 cask "balenaetcher"
 cask "bartender"
 cask "bettertouchtool"
+cask "betterzip"
 cask "bitbar"
 cask "cakebrew"
 cask "cheatsheet"
@@ -84,11 +81,11 @@ cask "goofy"
 cask "google-chrome"
 cask "iterm2"
 cask "itsycal"
-cask "java"
 cask "mtmr"
 cask "ngrok"
 cask "nordvpn"
 cask "notion"
+cask "osxfuse"
 cask "plex-media-server"
 cask "qlcolorcode"
 cask "qlimagesize"
@@ -109,11 +106,10 @@ cask "the-unarchiver"
 cask "transmit"
 cask "truecrypt"
 cask "tunnelblick"
-cask "usb-overdrive"
 cask "vagrant"
 cask "virtualbox"
 cask "vlc"
-cask "zoomus"
+cask "zoom"
 mas "1Keyboard", id: 766939888
 mas "Amphetamine", id: 937984704
 mas "Base64Anywhere", id: 640841706
@@ -121,7 +117,7 @@ mas "GarageBand", id: 682658836
 mas "GIPHY CAPTURE", id: 668208984
 mas "iMovie", id: 408981434
 mas "Magnet", id: 441258766
-mas "MainStage 3", id: 634159523
+mas "MainStage", id: 634159523
 mas "Mapping Tonal Harmony Pro", id: 599212305
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Notebook", id: 1173152781
@@ -133,4 +129,3 @@ mas "See Music Pro", id: 1362924701
 mas "Spark", id: 1176895641
 mas "Tessitura Pro", id: 1213925683
 mas "Wallcat", id: 1000397973
-mas "Xcode", id: 497799835
