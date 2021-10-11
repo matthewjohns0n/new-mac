@@ -118,6 +118,7 @@ mas "Amphetamine", id: 937984704
 mas "Base64Anywhere", id: 640841706
 mas "Final Cut Pro", id: 424389933
 mas "GIPHY CAPTURE", id: 668208984
+mas "Jira", id: 1475897096
 mas "Logic Pro", id: 634148309
 mas "Magnet", id: 441258766
 mas "MainStage", id: 634159523
