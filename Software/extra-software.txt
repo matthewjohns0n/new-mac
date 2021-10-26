@@ -1,0 +1,10 @@
+I only install these if I need to (I'm using the associated hardware)
+
+Universal Audio Apollo x4 Driver:
+https://www.uaudio.com/uad/downloads/
+
+TonePrint Latest Driver: (For Ditto x4 and SPECTRACOMP BASS COMPRESSOR)
+https://www.tcelectronic.com/downloads.html
+
+Focusrite Control:
+https://customer.focusrite.com/en/my-hardware
