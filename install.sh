@@ -14,7 +14,7 @@ brew tap Homebrew/bundle
 brew bundle --file='Brewfile' install
 
 # use zsh as default
-sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
+sudo dscl . -create /Users/$USER UserShell /opt/homebrew/bin/zsh
 
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -35,12 +35,14 @@ echo "nameserver 127.0.0.1" | sudo tee /etc/resolver/test
 echo "nameserver 127.0.0.1" | sudo tee /etc/resolver/localhost
 
 # Make code folder
-mkdir ~/Code
-mkdir ~/Sites
-# chown -R ${USER}:staff ~/Code
-# chown -R ${USER}:staff ~/Sites
+mkdir -p ~/Code
+mkdir -p ~/Code/work
+mkdir -p ~/Code/work/www
 
-cd ~/Sites
+# # chown -R ${USER}:staff ~/Code
+# # chown -R ${USER}:staff ~/Sites
+
+cd ~/Code/work/www
 valet park
 
 # Disable spaces autoreordering because it's the most annoying thing in the world
