@@ -52,11 +52,12 @@ addDockItem "System Preferences.app"
 addDockItem spacer
 
 addDockItem "Google Chrome.app"
+addDockItem "Slack.app"
 addDockItem "iTerm.app"
 addDockItem "Sublime Text.app"
-addDockItem "Slack.app"
+addDockItem "Visual Studio Code.app"
 addDockItem "Github Desktop.app"
-addDockItem "Chronos.app"
+addDockItem "System Settings.app"
 addDockItem spacer
 
 addDockItem "Messenger.app"
